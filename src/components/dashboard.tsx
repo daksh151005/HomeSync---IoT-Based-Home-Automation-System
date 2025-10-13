@@ -207,7 +207,7 @@ export function Dashboard() {
                                 <ScheduleForm
                                     schedule={editingSchedule}
                                     devices={devices}
-                                    onSave={handleSaveSchedule}
+                                    onSave={(data) => handleSaveSchedule({ ...data, enabled: editingSchedule?.enabled ?? true })}
                                     onDelete={handleDeleteSchedule}
                                 />
                             </DialogContent>
