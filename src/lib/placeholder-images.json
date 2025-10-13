@@ -1,0 +1,10 @@
+{
+    "placeholderImages": [
+        {
+            "id": "hero-image",
+            "description": "A modern smart home dashboard with various IoT devices",
+            "imageUrl": "/thanit2022february_12.jpg",
+            "imageHint": "Smart home dashboard with IoT devices"
+        }
+    ]
+}
